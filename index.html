@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>iOS Sliding Animation in css</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<main role="main">
+
+	<div class="left-hand">
+		<h1>iOS-like sliding animation</h1>
+		<p>This is not your usual sliding animation. The idea comes straight from Cupertino's designers, but since we are web workers and don't have access to the swift magic of Cocoa (pun intended) this is a css replica for your web app needs.</p>
+		<p>The whole thing is actually quite simple, but the result looks very nice. We simply move the hiding slide slightly to the left when the other one comes in from the right. We also add a subtle shadow to the coming slide, just like in iOS 7 (and soon 8).</p>
+	</div>
+	
+	<div class="right-hand">
+		<div class="iphone">
+			<img src="iphone.png" alt="" height="" />
+			<div class="slider-container">
+				<div class="sliding-pane">
+					<img src="pane1.png" alt="" />
+					<button class="next"></button>
+				</div>
+				
+				<div class="sliding-pane">
+					<img src="pane2.png" alt="" />
+					<button class="next next--pane2"></button>
+				</div>
+				
+				<div class="sliding-pane">
+					<img src="pane3.png" alt="" />
+				</div>
+			</div>
+			<button class="previous"></button>
+		</div>
+	</div>
+	
+</main>
+
+<footer>
+	<small>brought to you by <a href="http://gravida.pro" title="Gravida | Web Agency and Creative Business in Macerata">Gravida</a></small>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>
