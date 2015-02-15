@@ -12,7 +12,7 @@ Find a live demo [here](http://giosensation.github.io/ios-slide/ "iOS-like slidi
 
 ## MIT License
 
-Copyright (c) 2015 Making Duplication Technologies ltd
+Copyright (c) 2014-2015 Emanuele Feliziani for Gravida
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
